@@ -1,12 +1,14 @@
-# 🌪️ TorDet 龙卷风识别算法简介
-
-**作者：** 王茂宇
-**邮箱：** [wangmaoyu@stu.ouc.edu.cn](mailto:wangmaoyu@stu.ouc.edu.cn)
-**日期：** 2025.11.10
+# 🌪️ TorDet: A Refined Two-Stage Deep Learning Approach for Radar-Based Tornado Detection
 
 ---
 
-## 1. 数据流与接口
+## 1. 简介
+
+本仓库提供了 TorDet 算法的推理部分的接口，附带一个运行案例，适用于 CINRAD S 波段业务雷达。
+
+论文：TGRS-2025-02627 [major revision]
+
+## 2. 数据流与接口
 
 **数据流：**
 `.npz` 预处理文件 → 算法接口 → 输出结果
@@ -23,7 +25,7 @@
 
 ---
 
-## 2. 环境配置
+## 3. 环境配置
 
 项目依赖 5 个核心包。
 以下为开发及验证环境：
@@ -41,7 +43,7 @@
 
 ---
 
-## 3. 基数据预处理 `.npz` 文件指南
+## 4. 基数据预处理 `.npz` 文件指南
 
 模型输入的 `.npz` 文件需处理为以下结构：
 
@@ -93,7 +95,7 @@
 
 ---
 
-## 4. 输出格式
+## 5. 输出格式
 
 每个基数据文件的输出为一个 `list[dict]` 结构，每个 dict 表示一处识别结果。
 
