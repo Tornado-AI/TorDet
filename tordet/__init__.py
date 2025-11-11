@@ -1,0 +1,1 @@
+from tordet.detector import TornadoDetector
