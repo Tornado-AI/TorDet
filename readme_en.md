@@ -6,7 +6,9 @@
 
 This repository provides the inference interface of the TorDet algorithm, along with a running example, designed for CINRAD S-band operational radars.
 
-Paper: TGRS-2025-02627 [major revision]
+Paper: TGRS-2025-02627 (Early Access): https://ieeexplore.ieee.org/document/11313536
+
+DOI: 10.1109/TGRS.2025.3647545
 
 ## 2. Data Flow and Interface
 
