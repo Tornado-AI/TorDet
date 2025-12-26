@@ -6,7 +6,9 @@
 
 本仓库提供了 TorDet 算法的推理部分的接口，附带一个运行案例，适用于 CINRAD S 波段业务雷达。
 
-论文：TGRS-2025-02627 [major revision]
+论文：TGRS-2025-02627 (Early Access): https://ieeexplore.ieee.org/document/11313536
+
+DOI: 10.1109/TGRS.2025.3647545
 
 ## 2. 数据流与接口
 
